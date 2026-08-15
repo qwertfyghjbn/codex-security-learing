@@ -1,0 +1,36 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build / temp
+dist/
+build/
+coverage/
+.tmp/
+tmp/
+
+# Local env / secrets
+.env
+.env.*
+!.env.example
+
+# Agent local scratch
+.scratch/
